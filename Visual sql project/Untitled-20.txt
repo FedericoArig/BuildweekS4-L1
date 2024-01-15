@@ -1,0 +1,7 @@
+-- Clienti Senza Acquisti - Domanda: Identifica i clienti che non hanno effettuato alcun acquisto.
+SELECT c.NomeCliente from transazioni t
+right  join clienti_dataset1 c on c.ClienteID = t.ClienteID
+where c.ClienteID IS NULL OR t.ClienteID IS NULL
+
+
+

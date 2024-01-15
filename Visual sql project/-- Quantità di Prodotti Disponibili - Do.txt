@@ -1,0 +1,9 @@
+-- Quantità di Prodotti Disponibili - Domanda: Determina la quantità media disponibile per categoria di prodotto.
+
+SELECT 
+Categoria,
+AVG(QuantitaDisponibile) as MediaDisponibile
+FROM prodotti_dataset
+GROUP BY Categoria
+ORDER BY Categoria
+

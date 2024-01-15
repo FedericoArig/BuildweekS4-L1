@@ -1,0 +1,4 @@
+-- Analisi dei Prodotti in Magazzino - Domanda: Trova la quantità totale di prodotti disponibili in magazzino.
+SELECT 
+SUM(QuantitaDisponibile) as QuantitaTot from prodotti_dataset
+

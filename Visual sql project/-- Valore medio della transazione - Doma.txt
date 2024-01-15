@@ -1,0 +1,8 @@
+-- Valore medio della transazione - Domanda: Calcola il valore medio di ogni transazione.
+
+SELECT AVG(ImportoTotaleTransazione)
+
+from transazioni
+
+group by DataTransazione
+

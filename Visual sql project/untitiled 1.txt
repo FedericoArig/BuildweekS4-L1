@@ -1,0 +1,14 @@
+SELECT 
+
+SUM(p.prezzo * p.QuantitaDisponibile) as TotaleVendite,
+MONTH(t.DataSpedizione) As Mese
+
+from  prodotti_dataset p
+
+join transazioni t 
+
+on p.ProdottoID = t.ProdottoID
+
+group by Mese
+ORDER BY Mese
+
