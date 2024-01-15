@@ -1,0 +1,2 @@
+-- 7 . Si vuole stampare Nome del cliente, Importo transazione (prezzo * quantità),Nome Prodotto e Rating MEDIO del prodotto. Aggiungere colonna OUTPUT che avrà i seguenti valori:
+SE la transazione supera il valore medio di tutte le transazioni dell’anno stampare “Sopra La Media” altrimenti “Sotto la media”
